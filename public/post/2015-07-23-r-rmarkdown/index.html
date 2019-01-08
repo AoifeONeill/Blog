@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer">
+  
+
+  <link rel="icon" type="image/png" href="../../favicon.png">
+
+  <title>
+    
+    
+     Aoife reports on the Use of R in Official Statistics conference 
+    
+  </title>
+  <link rel="canonical" href="../../post/2015-07-23-r-rmarkdown/">
+
+  <link rel="stylesheet" href="../../css/fonts.css" />
+  <link rel="stylesheet" href="../../css/style.css" />
+
+  
+</head>
+
+<body>
+<section id=nav>
+  <h1><a href="../../">Aoif-R</a></h1>
+  <ul>
+    
+    <li><a href="https://Aoif-R.com">Home</a></li>
+    
+    <li><a href="https://github.com/AoifeONeill/">GitHub</a></li>
+    
+    <li><a href="https://www.linkedin.com/in/aoife-o-neill-8b3915102">LinkedIn</a></li>
+    
+    <li><a href="https://twitter.com/stats_o?lang=en">Twitter</a></li>
+    
+    <li><a href="../../index.xml">RSS</a></li>
+    
+  </ul>
+</section>
+
+
+<section id=content>
+  <h1> Aoife reports on the Use of R in Official Statistics conference </h1>
+
+  <div id=sub-header>
+    Aoife O&#39;Neill · 2018/10/15 · 5 minute read
+  </div>
+
+  <div class="entry-content">
+    
+
+
+<div class="figure">
+<img src="../../post/2015-07-23-r-rmarkdown_files/Aoife%20Blog.jpg" alt="an image of the words “R in Official Statistics Conference”. The words are made up of an image of the hague and placed on a white background" />
+<p class="caption">an image of the words “R in Official Statistics Conference”. The words are made up of an image of the hague and placed on a white background</p>
+</div>
+<div id="introduction" class="section level1">
+<h1>Introduction</h1>
+<p>From the 12-14th September I attended the Use of R in Official Statistics (uRos) conference at The Hague, which 32 countries were represented at! I learnt so much over the 3 days, and meeting government statisticians from across the world who loved R was a really enriching experience. I wanted to use this blog as a chance to share my highlights, and what we in DWP (and the UK) can learn from the international stats community, and to also encourage those who are thinking of attending in 2019.</p>
+<p>I presented my work on automating the production of DWP’s official statistics using R Markdown, with the hope of introducing RAP to an international audience, as we had found this work by Matthew Upson and Matthew Gregory so useful in the UK.</p>
+</div>
+<div id="structure" class="section level1">
+<h1>Structure</h1>
+<p>The first day of the conference was a series of tutorials. I attended the series on spatial data, which having learnt ARC GIS at university, I hadn’t really touched since, so it was great to refresh these skills in R. The second and third day were made up of breakaway sessions, so I attended the ones that I thought would be most relevant to the DWP stats community.</p>
+</div>
+<div id="r-in-organisation" class="section level1">
+<h1>R in Organisation</h1>
+<p>The first break away session I attended was about how R had been introduced to government departments. I thought it would be useful to attend this session, given some of the challenges to using R in UK government departments due to its open source nature, so I was interested to hear that gaining access to R had been a challenge for many countries.</p>
+<p>Canadian statisticians, spoke of SAS being widely used, which is also the case at DWP. They recognised the huge value in open source software and are at the early stages of trying to use R more, describing themselves as on a “modernisation initiative” They had deployed R by creating an R environment alongside with an internal “CRAN”, where they could download packages.</p>
+<p>Our neighbours, the National Records of Scotland also presented. They explained the frustration of senior leaders often not having an understanding of the differences between R and SAS. They found that to use R, they had to be persistent. For example, having had R installed, they still had to renew the funding each year, meaning they had to prove why R was essential. In spite of these barriers, they are now using R extensively, such as to produce their publications. They produce 32 different reports, each around 20 pages, which can be updated in 30 minutes.</p>
+<p>In terms of promoting R use within their department, they found that internal people did not have time for training, instead they looked in to procuring training through Jumping Rivers. They also provided people with Data Camp licences for 3 weeks.</p>
+<p>And finally, Denmark. Denmark presented the R set up their statisticians were provided with. The talk began explaining why Denmark had decided it was necessary to implement R, such as R sneaking in to organisations anyway. Peter Tibert Stoltze went in to detail about how R is deployed to statisticians in a shielded environment which can interface with their oracle database which received a nod of approval from those in the room.</p>
+<p>Denmark have strategized in terms of what tools to use when, equating R with Batman, being used for detective work and having more brain then muscle. Whereas Python is more akin to Superman, who has muscle power, elegance, a wide range, but more muscles then brain.</p>
+</div>
+<div id="reports-and-gui-programing" class="section level1">
+<h1>Reports and GUI programing</h1>
+<p>I was really keen to attend the session on Report and GUI programming, given my work on using R Markdown to produce statistical reports. Here at DWP we have a very strong design for publications and I wanted to hear if there were any other statisticians who also faced the challenge of reproducing this in R, and it’s safe to say I was not disappointed.</p>
+<p>Romain Lesur, from the Ministere de la Justice (France), presented on how they used R to meet their very specific publication template in HTML. They decided to use CSS for paged media to ensure they can control the size of the paper and where the page breaks are.
+Thomas Lo Russo, a statistician from Switzerland spoke next on “Maintaining corporate design in R”. They had developed a package, much like Matt Upson’s Govstyles’, in terms of designing a colour palette for graphs etc.</p>
+<p>Official statistics should be designed with the user in mind, and in Switzerland they acknowledge that their users love excel tables (illustrated by the excellent slide below) so they used R to automate production, increasing efficiency and ensuring user needs were met. Switzerland have also divided their publications in to two types “analytical documents” and “periodic reports”, so that each can meet a different user needs. Periodic reports contain headline figures, whereas analytical documents are more detailed and contain insight in to the statistics which they report.</p>
+<p>Thomas also got in touch with me after the conference to say that RAP was also guiding their work, so it was great to hear that the reach of RAP had already extended beyond the UK.</p>
+</div>
+<div id="conclusion" class="section level1">
+<h1>Conclusion</h1>
+<p>At the end of the 3 days, it was clear that R was opening up an exciting new era in the world of official statistics. People were really excited for the future of official statistics, and you couldn’t help but come away from the conference feeling positive.
+There were of course, many other great talks during the conference, which unfortunately I couldn’t include here, but I wanted to also mention the following talks which I thought were especially interesting:
+<em>ONS moving their RPI calculations from SAS to R having found this methodology was quicker
+</em>NHS Scotland using R to transform the publications, with shiny dashboards and interactive visualisations
+* Statisticians from the Japanese Government using R to employ disclosure controls for their tables</p>
+<p>Powerpoint slides from these sesssions can be found here:
+<a href="http://r-project.ro/conference2018-presentations.html" class="uri">http://r-project.ro/conference2018-presentations.html</a> (link is external)</p>
+</div>
+
+  </div>
+
+  <div id=links>
+    
+      <a class="basic-alignment left" href="../../post/tanka-theme-demo/">&laquo; Tanka Theme Demo</a>
+    
+    
+  </div>
+</section>
+
+<section id="comments">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+      
+      
+      if (window.location.hostname == "localhost")
+                return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = '';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+  
+  
+
+
+</body>
+</html>
+
