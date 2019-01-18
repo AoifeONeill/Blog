@@ -1,0 +1,23 @@
+---
+title: "About me"
+author: "Aoife O'Neill"
+output: html_document
+---
+
+Originally from an ecology background, now a government statistician. 
+
+My predominate coding language is R, but I'm hoping always looking to expand my technical knowledge, especially with open source software.
+
+I am particularly interested in how government can best use its data to inform citizens and improve services and can talk about these subjects for eons.
+
+
+On a more personal note, I'm a born and bred Londoner now living in Newcastle Upon Tyne. I love cats and am ultimately a people person. Geeky interests outside of Data Science and stats includes:
+
+* Comics (or reading anything)- mostly Marvel, never DC
+* Bird identification
+* Quilting
+
+
+
+
+
