@@ -6,10 +6,20 @@
     <description>Recent content on Aoif-R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Oct 2018 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 30 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>From National Statistics to Data Science</title>
+      <link>/post/from-na/</link>
+      <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/from-na/</guid>
+      <description>I’ve now been working in the Newcastle Data Science hub for a little over a month and I wanted to blog some personal reflections, in part for me to look back on my experience of moving in to a more digital role and for analysts considering getting in to data science but would like some insight in to the change they may experience.
+Having spent 2 and a half years working on publishing national statistics (whether in the form of bulletins or data on Stat-Xplore), it was time for me to try something new.</description>
+    </item>
     
     <item>
       <title>Aoife reports on the Use of R in Official Statistics conference</title>
@@ -18,7 +28,7 @@
       
       <guid>/post/2015-07-23-r-rmarkdown/</guid>
       <description>an image of the words “R in Official Statistics Conference”. The words are made up of an image of the hague and placed on a white background
-IntroductionFrom the 12-14th September I attended the Use of R in Official Statistics (uRos) conference at The Hague, which 32 countries were represented at! I learnt so much over the 3 days, and meeting government statisticians from across the world who loved R was a really enriching experience.</description>
+ Introduction From the 12-14th September I attended the Use of R in Official Statistics (uRos) conference at The Hague, which 32 countries were represented at! I learnt so much over the 3 days, and meeting government statisticians from across the world who loved R was a really enriching experience.</description>
     </item>
     
     <item>

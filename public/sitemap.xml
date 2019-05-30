@@ -3,27 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/</loc>
+    <lastmod>2019-05-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/from-na/</loc>
+    <lastmod>2019-05-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2019-05-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/post/2015-07-23-r-rmarkdown/</loc>
     <lastmod>2018-10-15T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/about_me/</loc>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2018-10-15T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
     <lastmod>2018-10-15T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
@@ -41,15 +43,19 @@
   </url>
   
   <url>
+    <loc>/tags/</loc>
+    <lastmod>2018-10-15T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/rstats/</loc>
     <lastmod>2018-10-15T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2018-10-15T21:13:14-05:00</lastmod>
-    <priority>0</priority>
+    <loc>/about_me/</loc>
   </url>
   
 </urlset>
