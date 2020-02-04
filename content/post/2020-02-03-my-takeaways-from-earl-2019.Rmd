@@ -1,0 +1,35 @@
+---
+title: My takeaways from EARL 2019
+author: Aoife O'Neill
+date: '2020-02-03'
+slug: my-takeaways-from-earl-2019
+categories: []
+tags: []
+---
+
+This blog post is many months after EARL 2019, but I still wanted to post my thoughts. I’m mainly posting to refresh my own memory, but to also encourage anyone who’s thinking of going to EARL 2020.
+
+# Why I went
+This was my first year attending EARL and I’d heard good things from other data scientists in government. Having had my expectation raised, I still came away impressed with how much I got out of the conference. EARL describes itself as being “dedicated to the real-world usage of R with some of the world’s leading practitioners”, and this is definitely accurate. There were 3 parallel sessions ran throughout the 2 days, where in each session someone would be sharing how they were using R in their day job. I came away with solutions to problems I’d wanted to tackle and been reassured about methodologies I’d employed in current investigative work. 
+
+One of the things that struck me, was the diversity of organisations giving talks at EARL. We had talks from a large range of private sector, to central government and the NHS. The only areas I felt I could have seen more of was the charity sector and local government, so if you work in those areas please submit an abstract to speak next year!
+
+![](https://media.giphy.com/media/I1nwVpCaB4k36/giphy.gif)
+
+# How it related to my work
+The largest analytical challenges I have faced in the last year have been around text analysis and forecasting. These have been really fulfilling to work on, but not without challenges. It was helpful to turn to a wider network of expertise outside of the department.
+
+I was asked to refine a forecasting methodology that had previously been employed in python and translate it into R. The original method had been created as “an art of the possible exercise” and I was looking to create a more rigorous forecasting pipeline which could be relied upon for different datasets to select a forecasting method and reliably predict on various breakdowns of the data. 
+I set to work and spent much time pouring over the excellent Forecasting: Principles and Practice (https://otexts.com/fpp2/). Having created a prototype forecasting pipeline, I realised however that to be confident in my methodology, I needed to validate it with someone with experience in this area. I was fortunate that during EARL there was a talk titled “Large-Scale Time Series Forecasting in Apache Spark” by Tim Wong & Phuong Pham. Not only did I find confidence in my work so far, I also gained new ideas on what to do next, such as additional forecasting models to incorporate and the use of Apache Spark and Hadoop to increase the speed at which my code was running. 
+
+![](https://media.giphy.com/media/EtP0lWrUUd0Ws/giphy.gif)
+
+The second challenge was text analysis. Fortunately, Aleks was leading on this as she has tons of knowledge on this, but I ended up helping on the odd ticket and picking up peer reviews. I learnt a lot from this, but as I was learning while doing I didn’t get much chance to learn the context of the methods we were employing, but fortunately there were a wealth of text analysis talks at EARL, which solved that problem. Two of my favourites on this topic was Theo Boutaris’s talk, “Deep Milk: The Quest of identifying Milk-Related Instagram Posts using Keras” and Amanda Beedham’s “Harnessing AI to Create Insight from Text”. 
+
+#R-Ladies!
+Another great part of EARL was getting to meet so many R-Ladies, and I even managed to attend an R-Ladies London meetup where Julia Silge talked us through text analysis using Jane Austen’s novels as an example. Bearing in mind I have two cats named Bennet and Bingley- this was right up my street and I came away having learnt a lot. It was also great to snoop on how R-Ladies London run their sessions- I was very impressed with their snack game!
+
+![](https://media.giphy.com/media/gx656616VR5ew/giphy.gif)
+
+# To summarise-
+I would recommend going to EARL if your keen to hear loads of examples of R being used by a wide range of organisations, you’ll definitely come away having learnt something useful.
